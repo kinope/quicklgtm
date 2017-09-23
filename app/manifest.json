@@ -17,7 +17,7 @@
   "permissions": [
     "contentSettings"
   ],
-  "page_action": {
+  "browser_action": {
     "default_icon": {
       "19": "images/icon-19.png",
       "38": "images/icon-38.png"
@@ -31,11 +31,13 @@
         "https://github.com/*/*/pull/*"
       ],
       "js": [
-        "scripts/contentscript.js"
+        "scripts/contentscript.js",
+        "scripts/popup.js"
       ]
     }
   ],
   "permissions": [
-    "background"
+    "background",
+    "storage"
   ]
 }

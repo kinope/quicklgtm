@@ -1,6 +1,6 @@
 'use strict';
 
-let defaultLGTM = '👍';
+const defaultLGTM = '👍';
 let lgtm = '';
 
 window.onload = function () {
